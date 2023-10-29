@@ -50,78 +50,50 @@ body{
 }
 
 .container{
-    width: 900px;
+    max-width: 255px;
     margin: 30px auto;
+  
 }
 
-.kyser{
-    background-color: #2d2d2d;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-
-.chat{
+.ai_img{
     border: 1px solid #4d4d4d;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0px;
-  }
-  
-.kyserchats{
-    margin: 10px;
-  }
-  
-.msg{
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    width: 70%;
-  }
-
-.kyser_msg{
-    background-color: #504f4f;
-    color: #fff;
-  }
-
-.kyser_ask{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-input[type="text"] {
-    width: 91.5%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-#submit_btn {
-    background-color: #e23d3d;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-#submit_btn:hover {
-    background-color: #b14d29;
-  } 
-
-#voice_ask{
-    margin: 20px auto; 
-    width: 70px;
-    height: 70px;
     border-radius: 50%;
-    border: 2px solid rgb(100, 69, 40);
-    overflow: hidden;
- }
+    margin: 10px 0px;
 
-#voice_ask img {
-  width: 90px;
-  height: 90px;
-  padding: 0px 22px 27px 0px;
+  }
+
+img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+  
+.input{
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 50px;
+  border-radius: 50px;
+  background: rgba(201, 50, 50, 0.878);
+  display: flex;
+}
+
+.talk{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+i{
+  font-size: 20px;
+  color: rgb(88, 158, 227);
+}
+
+.content{
+  color: white;
+  font-size: 15px;
 }
