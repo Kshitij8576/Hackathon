@@ -37,7 +37,7 @@ body{
 
 .name h1{
     font-size: 100px;
-    margin-top: 30px;
+    margin-top: 15px;
     font-weight: 100;
     text-align: center;
     align-items: center;
@@ -51,7 +51,7 @@ body{
 
 .container{
     max-width: 255px;
-    margin: 30px auto;
+    margin: 20px auto;
   
 }
 
@@ -69,27 +69,29 @@ img{
 }
   
 .input{
-  justify-content: center;
-  align-items: center;
-  width: 40vw;
+  width: 250px;
   height: 50px;
   border-radius: 50px;
-  background: rgba(201, 50, 50, 0.878);
+  background: rgba(123, 205, 225, 0.878);
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .talk{
-  width: 50px;
-  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
   font-size: 15px;
+  border-radius: 100%;
+  margin-right: 10px;
   cursor: pointer;
 }
 
 i{
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(88, 158, 227);
 }
 
