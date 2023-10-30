@@ -76,7 +76,6 @@ function speakThis(message) {
     }
 
     
-
     else if(message.includes('team 16 mentor')) {
         const finalText = "Affareene and Dipali";
         speech.text = finalText;
