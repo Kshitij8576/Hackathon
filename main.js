@@ -65,8 +65,20 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
+    else if(message.includes('what is your creator name')) {
+        const finalText = "I am made by Dhananjay and kshitij";
+        speech.text = finalText;
+    }
+
     else if(message.includes('name')) {
         const finalText = "My name is Kysor.";
+        speech.text = finalText;
+    }
+
+    
+
+    else if(message.includes('team 16 mentor')) {
+        const finalText = "Affareene and Dipali";
         speech.text = finalText;
     }
 
